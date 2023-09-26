@@ -1,19 +1,5 @@
-name: Compliance
-
-on:
-  pull_request_target:
-    types:
-      - opened
-      - edited
-      - synchronize
-      - reopened
-  workflow_call:
-
+on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    name: build
-    runs-on: self-hosted
-    timeout-minutes: 10
-  call-workflow-build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
