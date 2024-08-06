@@ -129,7 +129,7 @@
             layers = <0>;
         };
 
-        esc {
+        esc-2 {
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
             timeout-ms = <200>;
