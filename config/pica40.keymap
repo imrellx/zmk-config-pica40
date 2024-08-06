@@ -160,19 +160,19 @@
 
         nav {
             bindings = <
-             &none     &none     &none      &none      &none   &none     &kp PAGE_DOWN   &kp PAGE_UP   &none      &none
-&bootloader  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &kp G   &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none  &bootloader
-&sys_reset   &none     &none     &none      &none      &none   &none     &kp END         &kp HOME      &kp INS    &none  &sys_reset
-                                 &trans     &trans     &trans  &trans    &trans          &trans
+       &kp F1  &kp F2   &kp F3   &kp F4   &none   &none     &kp PAGE_DOWN   &kp PAGE_UP   &none      &none
+&none  &kp F5  &kp F6   &kp F7   &kp F8   &kp G   &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none  &bootloader
+&none  &kp F9  &kp F10  &kp F11  &kp F12  &none   &none     &kp END         &kp HOME      &kp INS    &none  &none
+                        &trans   &trans   &trans  &trans    &trans          &trans
             >;
         };
 
         sym {
             bindings = <
-           &kp PIPE  &kp AMPS  &kp STAR   &kp LPAR   &kp RPAR  &none  &none      &none      &none     &none
-&kp LCTRL  &kp LT    &kp DLLR  &kp PRCNT  &kp CARET  &kp LBRC  &none  &kp RSHFT  &kp RCTRL  &kp LALT  &kp RGUI  &none
-&kp BSPC   &kp GT    &kp EXCL  &kp AT     &kp HASH   &kp RBRC  &none  &none      &none      &none     &none     &none
-                               &kp TILDE  &tog 0     &trans    &none  &none      &none
+             &kp PIPE  &kp AMPS  &kp STAR   &kp LPAR   &kp RPAR  &none  &none      &none      &none     &none
+&bootloader  &kp LT    &kp DLLR  &kp PRCNT  &kp CARET  &kp LBRC  &none  &kp RSHFT  &kp RCTRL  &kp LALT  &kp RGUI  &bootloader
+&sys_reset   &kp GT    &kp EXCL  &kp AT     &kp HASH   &kp RBRC  &none  &none      &none      &none     &none     &sys_reset
+                                 &kp TILDE  &tog 0     &trans    &none  &none      &none
             >;
         };
     };
