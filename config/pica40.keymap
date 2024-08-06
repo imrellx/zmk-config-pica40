@@ -121,6 +121,13 @@
             timeout-ms = <200>;
             layers = <2>;
         };
+
+        del {
+            bindings = <&kp DEL>;
+            key-positions = <8 7>;
+            timeout-ms = <200>;
+            layers = <0>;
+        };
     };
 
     keymap {
