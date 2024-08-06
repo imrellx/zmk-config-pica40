@@ -134,7 +134,7 @@
             bindings = <
              &none     &none     &none      &none      &none   &none     &kp PAGE_DOWN   &kp PAGE_UP   &none      &none
 &bootloader  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &kp G   &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none  &bootloader
-&sys_reset   &none     &none     &none      &none      &none   &none     &kp HOME        &kp END       &kp INS    &none  &sys_reset
+&sys_reset   &none     &none     &none      &none      &none   &none     &kp END         &kp HOME      &kp INS    &none  &sys_reset
                                  &trans     &trans     &trans  &trans    &trans          &trans
             >;
         };
