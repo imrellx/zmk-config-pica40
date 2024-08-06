@@ -107,6 +107,20 @@
             layers = <0>;
             timeout-ms = <200>;
         };
+
+        boot-left {
+            bindings = <&bootloader>;
+            key-positions = <5 16>;
+            timeout-ms = <200>;
+            layers = <2>;
+        };
+
+        boot-right {
+            bindings = <&bootloader>;
+            key-positions = <4 15>;
+            timeout-ms = <200>;
+            layers = <2>;
+        };
     };
 
     keymap {
